@@ -1,3 +1,3 @@
 #!/bin/bash
-pip install --upgrade pip
-pip install --use-pep517 -r requirements.txt
+python -m pip install --upgrade pip==23.1.2
+pip install --no-cache-dir -r requirements.txt
