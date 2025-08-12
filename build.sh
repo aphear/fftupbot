@@ -1,3 +1,3 @@
 #!/bin/bash
-python -m pip install --upgrade pip==23.1.2
-pip install --no-cache-dir -r requirements.txt
+python -m pip install --upgrade pip==22.3.1
+pip install --no-cache-dir --ignore-installed -r requirements.txt
